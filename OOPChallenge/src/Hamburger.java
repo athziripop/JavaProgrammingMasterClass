@@ -46,7 +46,7 @@ public class Hamburger {
         if(addition2Name != null) System.out.println("Added "+ addition2Name +" for an extra "+ addition2Price);
         if(addition3Name != null) System.out.println("Added "+ addition3Name +" for an extra "+ addition3Price);
         if(addition4Name != null) System.out.println("Added "+ addition4Name +" for an extra "+ addition4Price);
-        double total = price + addition1Price + addition2Price + addition3Price + addition4Price;
+        double total = this.price + addition1Price + addition2Price + addition3Price + addition4Price;
         return Math.round(total*100)/100.0d;
     }
 
